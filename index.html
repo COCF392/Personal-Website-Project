@@ -8,17 +8,23 @@
 </head>
 <body>
     <!-- Navigation bar -->
+    <nav>
+        <a href="#about_me">About Me</a>
+        <a href="#hobbies">Interests & Hobbies</a>
+        <a href="#skills">Skills/Goals</a>
+        <a href="#contact">Contact</a>
+    </nav>
 
     <!-- Welcome image "div background will be changed in css"-->
-    <div class="welcome">
+    <div class="welcome_header">
         <h1>Hello, and welcome to my webpage!</h1>
     </div>
     
     <!-- Introduction -->
-    <div class="intro">
+    <div id="about_me">
         <img src="images/me.jpg">
-        <div class="intro_text">
-            <h2>About me</h2>
+        <div class="about_me_text">
+            <h2>About Me</h2>
             <p>My name is Christopher. I was born on September 24th in 2008, making me 15 at the time <br>
                 of writing this. I only have one sibling, that being my half-brother named Dejour. We've lived <br>
                 in Massachussets for most of our lives, but in 2023, my mom and I moved down to North <br>
@@ -28,16 +34,117 @@
                 attend this school thanks to the <a href="https://abetterchance.org/" target="_blank">ABC (A Better Chance) program</a>, which essentially allows me to <br>
                 board for a non-boarding school. For the Summer of 2024, I joined a program called <a href="https://allstarcode.org/" target="_blank">All Star Code</a>, <br>
                 which taught me about all things computer science and the tech industry, as I plan to land a job in <br>
-                that field once I'm older. That program is actually the reason this webpage exists! This all part of <br>
+                that field in the future. That program is actually the reason this webpage exists! This all part of <br>
                 the 3rd week project. I hope you enjoy looking through it as much as I did creating it!</p>
         </div>
     </div>
 
     <hr>
+
     <!-- Interests & Hobbies -->
-    <div class="hobbies">
-        
+    <div id="hobbies">
+        <h2>Interests & Hobbies</h2>
+        <p>Here's a list of various things I enjoy and/or do in my free time.</p>
     </div>
-    
+
+    <div id="games">
+        <h3> Gaming </h3>
+        <div>
+            <img class="game_images" src="images/rw_cover.jpg">
+            <img class="game_images" src="images/hk_cover.jpg">
+            <img class="game_images" id="totk" src="images/totk_cover.jpg">
+        </div>
+        <p>I've loved playing video games for longer than I can even remember. Ever since my very <br> 
+            first gaming system, the 3ds, my interest with this pastime has hardly waned over the <br>
+            years. I intend to make my own game one day as part of a passion project. Out of the <br>
+            countless games I've played, a few have managed to stick out to me for being particularly <br>
+            excellent, and I could talk about them for days. See some of my personal favorite titles <br>
+            above.</p>
+    </div>
+
+    <div id="nature">
+        <h3>Nature</h3>
+        <div>
+            <img class="nature_images" src="images/mountains.jpg">
+            <img class="nature_images" src="images/river.jpg">
+            <img class="nature_images" src="images/waterfall.jpg">
+            <img class="nature_images" src="images/vulture.jpg">
+        </div>
+        <p>I adore anything outdoors and related to animals! I enjoy taking walks on trails or even just <br>
+            around my neighborhood, but I like going out into nature and exploring even more! I'm <br>
+            always up for a hike up a mountain or a campout in the woods. My reverence for nature <br>
+            led me to join the Boy Scouts troop of New Canaan, which hosts plenty of outdoor-centric <br>
+            events. I also love the animals which inhabit the natural world as much as the world itself. <br>
+            See a picture of a turkey vulture I spotted while walking around my neighborhood above.</p>
+    </div>
+
+    <div id="music">
+        <h3>Music</h3>
+        <div>
+            <img class="music_images" src="images/late_cover.jpg">
+            <img class="music_images" src="images/wolf_cover.jpg">
+            <img class="music_images" src="images/king_cover.jpg">
+        </div>
+        <p>I've recentely started developing a deeper interest in music. My favorite genres are <br>
+            hip-hop and jazz, though I do also tend to listen to video game music of various genres <br>
+            as well. My favorite album is Late Registration by Kanye West, and my favorite musical <br>
+            artist is Tyler, the Creator, though MF DOOM comes in as a close second place. I want <br>
+            to start learning more about music production to see if I enjoy it enough to make creating <br>
+            music a new hobby.</p>
+    </div>
+
+    <div id="art">
+        <h3>Art</h3>
+        <div>
+            <img class="art_images" src="images/sunset.jpg">
+            <img class="art_images" src="images/lake.jpg">
+            <img class="art_images" src="images/igor.jpg">
+        </div>
+        <p>I love art and all of the diverse mediums in which it can be represented. I find it so <br>
+            fascinating how it can allow people to share complex ideas and stories with one another <br>
+            while negating a language barrier. I'd say that my favorite medium would be visual arts; <br>
+            that being paintings, drawings, sculptures, etc. I took a photoshop class as one my <br>
+            electives as a freshman, and that allowed me to create various pieces of digital art, <br>
+            which you can see above. </p>
+    </div>
+
+    <hr>
+
+    <!-- Skills/Goals -->
+    <div id="skills">
+        <h2 id="skills_header">Skills/Goals</h2>
+        <div id="skills_box">
+            <img id="code_image" src="images/code.jpg">
+        </div>
+        <p>As I said in my "About me" section, I aim to achieve a career in the tech industry through <br>
+            whatever form it may be; whether it's as a software, app, or game developer. The reason I'm <br>
+            so keen on earning a position such as this is simply due to the fact that I find technology <br>
+            and anything computers to be fun, challenging, and the key to leading humanity to new and, <br>
+            previously thought to be impossible, heights. I also make sure to maintain a growth mindset <br>
+            when creating aspirations for myself. As long as I believe that I can do something and keep <br>
+            putting in work to achieve that something, I'm bound to succeed eventually.</p>
+        <p> I applied this mindset while my two teamates and I were developing a game together for the second <br>
+            week milestone project of the All Star Code Summer Intensive. We were given just a weekend to <br>
+            finish the entire thing, and I had tasked myself with writing most of the script. It was quite <br>
+            challenging and even tiring at points, but I didn't stop working on my part until I had created <br>
+            something which my teamates and I could be proud of. The main reason that I took most of the <br>
+            developement as my role was for me to personally challenge myself and see what I could accomplish <br>
+            under a strict time-frame. The image you see on the right is a snippet of the code I wrote for game, <br>
+            and the game itself can be played on my <a href="https://github.com/COCF392/ASC-Week-2-Project" Target="_blank">GitHub page</a>. There, you can also see various other projects <br>
+            that I have created, either as part of All Star Code or something I did during my free time.</p>
+    </div>
+
+    <hr>
+
+    <!-- Contact -->
+    <div id="contact">
+        <h2 id="contact_header">Contact</h2>
+        <p>Want to reach out? You can contact me through this info:</p>
+        <ul>
+            <li>Gmail: chrisofeliz@gmail.com</li>
+            <li>Number: 978-489-5307</li>
+        </ul>
+    </div>
+
 </body>
 </html>
