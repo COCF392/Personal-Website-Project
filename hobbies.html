@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Nav bar-->
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About Me</a>
+        <a class="current_page" href="hobbies.html">Interests & Hobbies</a>
+        <a href="skills.html">Skills/Goals</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <!-- Interests & Hobbies -->
+    <h2 class="headers">Interests & Hobbies</h2>
+    <div class="paragraphs">
+        <div class="info_sections">
+            <p>Here's a handful of things I enjoy and/or do in my free time.</p>
+        </div>
+    </div>
+
+    <div id="hobby_boxes">
+
+        <!-- Left button -->
+        <button id="prev_button">&lt;</button>
+
+        <!-- Carousel start-->
+        <div id="carousel_view">
+            <div class="hobby_categories">
+                <h3 class="headers">Gaming</h3>
+                <div>
+                    <img class="images" src="images/rw_cover.jpg">
+                    <img class="images" src="images/hk_cover.jpg">
+                    <img class="images" src="images/totk_cover.jpg">
+                </div>
+                <p class="hobby_paragraphs">I've loved playing video games for longer than I can even remember. Ever since my very <br> 
+                    first gaming system, the 3ds, my interest with this pastime has hardly waned over the <br>
+                    years. I intend to make my own game one day as part of a passion project. Out of the <br>
+                    countless games I've played, a few have managed to stick out to me for being particularly <br>
+                    excellent, and I could talk about them for days. See some of my personal favorite titles <br>
+                    above.</p>
+            </div>
+
+            <div class="hobby_categories">
+                <h3 class="headers">Nature</h3>
+                <div id="nature_image_box1">
+                    <img class="images" src="images/mountains.jpg">
+                    <img class="images" src="images/river.jpg">
+                </div>
+                <div id="nature_image_box2">  
+                    <img class="images" src="images/waterfall.jpg">
+                    <img class="images" src="images/vulture.jpg">
+                </div> 
+                
+                <p class="hobby_paragraphs">I adore anything outdoors and related to animals! I enjoy taking walks on trails or even just <br>
+                    around my neighborhood, but I like going out into nature and exploring even more! I'm <br>
+                    always up for a hike up a mountain or a campout in the woods. My reverence for nature <br>
+                    led me to join the Boy Scouts troop of New Canaan, which hosts plenty of outdoor-centric <br>
+                    events. I also love the animals which inhabit the natural world as much as the world itself. <br>
+                    See a picture of a turkey vulture I spotted while walking around my neighborhood above.</p>
+            </div>
+
+            <div class="hobby_categories">
+                <h3 class="headers">Music</h3>
+                <div>
+                    <img class="images" src="images/late_cover.jpg">
+                    <img class="images" src="images/wolf_cover.jpg">
+                    <img class="images" src="images/king_cover.jpg">
+                </div>
+                <p class="hobby_paragraphs">I've recentely started developing a deeper interest in music. My favorite genres are <br>
+                    hip-hop and jazz, though I do also tend to listen to video game music of various genres <br>
+                    as well. My favorite album is Late Registration by Kanye West, and my favorite musical <br>
+                    artist is Tyler, the Creator, though MF DOOM comes in as a close second place. I want <br>
+                    to start learning more about music production to see if I enjoy it enough to make creating <br>
+                    music a new hobby.</p>
+            </div>
+    
+            <div class="hobby_categories">
+                <h3 class="headers">Art</h3>
+                <div>
+                    <img class="images" src="images/sunset.jpg">
+                    <img class="images" src="images/lake.jpg">
+                    <img class="images" src="images/igor.jpg">
+                </div>
+                <p class="hobby_paragraphs">I love art and all of the diverse mediums in which it can be represented. I find it so <br>
+                    fascinating how it can allow people to share complex ideas and stories with one another <br>
+                    while negating a language barrier. I'd say that my favorite medium would be visual arts; <br>
+                    that being paintings, drawings, sculptures, etc. I took a photoshop class as one my <br>
+                    electives as a freshman, and that allowed me to create various pieces of digital art, <br>
+                    which you can see above. </p>
+            </div>
+        </div>
+        <!-- Carousel end -->
+        
+        <!-- Right button -->
+        <button id="next_button">&gt;</button>
+    
+    </div>
+    <!-- Linking the script -->
+    <script src="script.js"></script>
+</body>
+</html>
